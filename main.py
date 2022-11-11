@@ -221,7 +221,7 @@ def getResultado(id):
     json = response.json()
     return jsonify(json)
 
-# relacion mesas-candidatos a resultados
+
 
 
 @app.route("/resultado/mesa/<string:id_mesa>/candidatos/<string:id_candidato>", methods=['POST'])
